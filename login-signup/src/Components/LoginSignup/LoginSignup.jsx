@@ -25,7 +25,11 @@ const LoginSignup = () => {
                     <img src={password_icon} alt="" />
                     <input type="password" />
                 </div>
-
+            </div>
+            
+            <div className="submit-container">
+                <div className="submit">Sign Up</div>
+                <div className="submit">Login</div>
             </div>
 
         </div>
